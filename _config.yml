@@ -10,7 +10,7 @@ permalink: /:title
 timezone: null
 lsi: false
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Site settings
 title:       "Hauz Team"
