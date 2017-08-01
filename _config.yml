@@ -1,0 +1,18 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+# Site settings
+title:       "Hauz Team"
+description: "A listing of books, article links, podcast links and video links of stuff that we believe demonstrate how to be awesome."
+url:         "https://github.com/lighthauz/be-awesome" 

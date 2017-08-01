@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.clear:after {content:".";display:block;height:0;clear:both;visibility:hidden;top:-1em;position:relative;}
+
+
+
+
+
+body {
+	background: #fff;
+	padding: 40px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #78726C;
+}
+
+a {
+	color: #DB8C00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	background: #DB8C00;
+}
+
+section {
+	border-bottom: 1px solid #ddd;
+	padding: 30px 0;
+}
+
+h1 {
+	font-size: 64px;
+	color: #78726C;
+	font-weight: 100;
+	line-height: 70px;
+	margin: 40px 0 30px 0;
+}
+
+
+h2 {
+	font-size: 34px;
+	color: #78726C;
+	font-weight: 700;
+	line-height: 40px;
+	margin: 20px 0 30px 0;
+}
+
+h3 {
+	font-size: 26px;
+	color: #96BA24;
+	font-weight: 600;
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 20px;
+	color: #78726C;
+	font-weight: 400;
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+ol {
+	list-style-type: decimal;
+	margin-bottom: 31px;
+}
+
+.contentwrap li {
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	line-height: 1.45;
+}
+
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.contentwrap {
+	width: 700px;
+	float: right;
+
+}
+
+.contentwrap p {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	margin-bottom: 31px;
+	line-height: 1.45;
+}
+
+.contentwrap strong {
+	font-weight: 700;
+}
+
+.contentwrap h1 {
+	line-height: 200px;
+}
+
+.logo {
+	font-size: 48px;
+	font-weight: 700;
+	background: url(../images/logo.svg) no-repeat;
+	background-size: 50px 50px;
+	display: block;
+	height: 50px;
+	color: #96BA24;
+	padding-left: 50px;
+}
+
+.nav {
+	position: fixed;
+	top: 180px;
+	font-size: 26px;
+	line-height: 1.6;
+}
+
+.tag {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #bbb;
+	margin-bottom: 10px;
+	padding-left: 48px;
+	background-size: 40px;
+	background-color: #efefef;
+	background-repeat: no-repeat;
+	height: 40px;
+	border-radius: 40px;
+	padding-right: 15px;
+}
+
+.provo {
+	background-image: url(../images/provo.png);
+}
+.sf {
+	background-image: url(../images/sf.png);
+}
+
+table {
+	font-size: 20px;
+	margin-bottom: 31px;
+	border-top: 1px solid #eee;
+}
+
+table td,
+table th {
+	padding: 10px 30px 10px 0;
+	border-bottom: 1px solid #eee;
+}
+
+table th {
+	text-align: left;
+	font-weight: 700;
+	width: 20%;
+}
+
+table li,
+table p {
+	font-family: 'Source Sans Pro', sans-serif !important;
+	font-size: 16px;
+}
+
+.fine {
+	font-size: 14px;
+	font-weight: 100;
+}
+
+footer {
+	padding-top: 1000px;
+	clear: both;
+	font-size: 14px !important;
+}
+
+
+
+
+/* Small Desktop ----------- */
+@media (max-width: 1100px) {
+
+body {
+	padding: 40px;
+}
+
+.wrap {
+	width: 100%;
+	margin: 0;
+}
+
+.contentwrap {
+	width: 66%;
+	float: right;
+}
+
+.nav {
+	float: left;
+	width: 28%;
+	font-size: 15px;
+}
+
+}
+
+
+
+/* iPhone (portrait) ----------- */
+@media (max-width: 768px) {
+
+body {
+	padding: 20px;
+}
+
+.wrap {
+	width: 100%;
+	margin: 0;
+}
+
+.contentwrap {
+	width: 100%;
+	float: none;
+}
+
+.logo {
+	position: absolute;
+	top: 40px;
+	left: 20px;
+}
+
+.nav {
+	position: relative;
+	top: 100px;
+	font-size: 20px;
+	background-color: #96BA24;
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 70px;
+	float: none;
+	width: auto;
+}
+
+.nav a {
+	color: #fff;
+}
+
+.nav a:hover {
+	background: #96BA24;
+	color: #333;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 76px;
+}
+
+table {
+	font-size: 15px;
+}
+
+table td,
+table th {
+	padding: 10px 10px 10px 0;
+}
+
